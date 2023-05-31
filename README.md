@@ -25,4 +25,6 @@ Test cases:
 2. user=User("user", null, "user@user.com") (Од јазол 1 се преминува во јазол 2 - се влегува во if-от)
 3. user=User("user", "user", null) (Од јазол 1 се преминува во јазол 2 - се влегува во if-от)
 4. user=User("user", "user", "user@user.com") (Од јазол 1 се преминува во јазол 3 - не се влегува во if-от)
+
 ### Објаснување за unit тестовите
+Во класата SILab2Test постојат два тестови за методот function() од SILab2 и една листа од корисници. Едниот тест е за Every Branch критериумот, а другиот за Multiple Condition. За Multiple Condition ги искористив тест случаите погоре со користење на assertThrows() и assertDoesNotThrow(). Асертите за Every Branch тестот не ги напишав, но би ги користел тест случаите наведени во Every Branch погоре.
